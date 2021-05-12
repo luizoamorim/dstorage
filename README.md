@@ -30,3 +30,7 @@
 truffle init
 ```
 - For that we'll need the truffle installed in your machine.
+
+## 🔧 Project Diagram:
+![image](https://user-images.githubusercontent.com/73957838/117902704-74ddb680-b2a4-11eb-9f22-abddab6e042b.png)
+
