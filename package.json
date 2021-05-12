@@ -15,7 +15,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "truffle:init": "./node_modules/.bin/truffle init",
+    "truffle:compile": "./node_modules/.bin/truffle compile",
+    "truffle:dev": "NODE_ENV=dev truffe migrate --reset",
+    "truffle:ropsten": "NODE_ENV=ropsten truffe migrate --reset"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "truffle": "^5.3.6"
   }
 }
